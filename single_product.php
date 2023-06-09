@@ -58,7 +58,7 @@ if (isset($_GET['product_id'])) {
 
 
             <div class="col-lg-6 col-md-12 col-12">
-                <h6>Men/Shoes</h6>
+                <h6>Men/Items</h6>
                 <h3 class="py-4"><?php echo $row['product_name']; ?></h3>
                 <h2>$<?php echo $row['product_price']; ?></h2>
 
@@ -95,7 +95,7 @@ if (isset($_GET['product_id'])) {
 <!-- Related products -->
 <section id="related-products" class="my-5 pb-5">
     <div class="container text-center mt-5 py-5">
-        <h3>Relatesd Products</h3>
+        <h3>Related Products</h3>
         <hr class="mx-auto" />
     </div>
     <div class="row mx-auto container-fluid">
@@ -109,7 +109,7 @@ if (isset($_GET['product_id'])) {
                 <i class="fas fa-star"></i>
             </div>
             <h5 class="p-name">Sports Shoes</h5>
-            <h4 class="p-price">$199.8</h4>
+            <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
 
@@ -123,7 +123,7 @@ if (isset($_GET['product_id'])) {
                 <i class="fas fa-star"></i>
             </div>
             <h5 class="p-name">Sports Shoes</h5>
-            <h4 class="p-price">$199.8</h4>
+            <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
 
@@ -137,7 +137,7 @@ if (isset($_GET['product_id'])) {
                 <i class="fas fa-star"></i>
             </div>
             <h5 class="p-name">Sports Shoes</h5>
-            <h4 class="p-price">$199.8</h4>
+            <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
 
@@ -151,7 +151,7 @@ if (isset($_GET['product_id'])) {
                 <i class="fas fa-star"></i>
             </div>
             <h5 class="p-name">Sports Shoes</h5>
-            <h4 class="p-price">$199.8</h4>
+            <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
     </div>

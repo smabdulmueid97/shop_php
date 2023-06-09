@@ -75,72 +75,6 @@ if (isset($_POST['search'])) {
 
 
 
-<!-- Search -->
-<section id="search" class="my-5 py-5 ms-2">
-    <div class="container mt-5 py-5 ">
-        <p>Search Products</p>
-        <hr>
-    </div>
-
-    <form action="shop.php" method="POST">
-        <div class="row mx-auto container">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-
-                <p>Category</p>
-                <div class="form-check">
-                    <input class="form-check-input" value="shoes" type="radio" name="category" id="category_one" <?php if (isset($category) && $category == 'shoes') {echo 'checked';}?>>
-
-                    <label class="form-check-label" for="flexRadioDefault1">
-                        Shoes
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" value="coats" type="radio" name="category" id="category_two"<?php if (isset($category) && $category == 'coats') {echo 'checked';}?>>
-
-                    <label class="form-check-label" for="flexRadioDefault2">
-                        Coats
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" value="watches" type="radio" name="category" id="category_two"<?php if (isset($category) && $category == 'watches') {echo 'checked';}?>>
-
-                    <label class="form-check-label" for="flexRadioDefault2">
-                        Watches
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" value="bags" type="radio" name="category" id="category_two"<?php if (isset($category) && $category == 'bags') {echo 'checked';}?>>
-
-                    <label class="form-check-label" for="flexRadioDefault2">
-                        Bags
-                    </label>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="row mx-auto container mt-5">
-            <div class="col-lg-12 col-md-12 col-sm-12">
-
-                <p>Price</p>
-                <input type="range" class="form-range w-50" name="price" value="<?php if (isset($price)) {echo $price;} else {echo "100";}?>" min="1" max="1000" id="customRange2">
-                <div class="w-50">
-                    <span style="float: left;">1</span>
-                    <span style="float: right;">1000</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="form-group my-3 mx-3">
-            <input type="submit" name="search" value="Search" class="btn btn-primary">
-        </div>
-    </form>
-</section>
-
-
 <!-- Shop -->
 <section id="shop" class="my-5 py-5">
     <div class="container mt-5 py-5">
@@ -162,7 +96,7 @@ if (isset($_POST['search'])) {
                     <i class="fas fa-star"></i>
                 </div>
                 <h5 class="p-name"><?php echo $row['product_name']; ?></h5>
-                <h4 class="p-price">$<?php echo $row['product_price']; ?></h4>
+                <h4 class="p-price">RM <?php echo $row['product_price']; ?></h4>
 
                 <a class="btn shop-buy-btn" href="<?php echo "single_product.php?product_id=" . $row['product_id']; ?>">Buy Now</a>
             </div>

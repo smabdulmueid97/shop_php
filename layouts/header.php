@@ -28,7 +28,7 @@ session_start();
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
         <div class="container">
             <a href="index.php"><img class="logo" src="assets/imgs/logo.jpg" /></a>
-            <h2 class="brand"><a id="brand_name" href="index.php">Greanifia</a></h2>
+            <h2 class="brand"><a id="brand_name" href="index.php">Coffeepawa</a></h2>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

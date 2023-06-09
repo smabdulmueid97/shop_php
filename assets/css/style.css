@@ -94,7 +94,7 @@ a .fa {
 }
 #brand_name {
   text-decoration: none;
-  color: rgb(24, 131, 0);
+  color: rgb(0, 0, 0);
 }
 
 @media only screen and (max-width: 990px) {
@@ -114,7 +114,7 @@ a .fa {
 }
 
 #home {
-  background-image: url("../imgs/white.jpeg");
+  background-image: url("../imgs/a.jpeg");
   width: 100%;
   height: 100vh;
   background-size: cover;
