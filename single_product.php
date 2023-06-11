@@ -108,7 +108,7 @@ if (isset($_GET['product_id'])) {
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <h5 class="p-name">Sports Shoes</h5>
+            <h5 class="p-name">Tea</h5>
             <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
@@ -122,7 +122,7 @@ if (isset($_GET['product_id'])) {
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <h5 class="p-name">Sports Shoes</h5>
+            <h5 class="p-name">Black Tea</h5>
             <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
@@ -136,7 +136,7 @@ if (isset($_GET['product_id'])) {
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <h5 class="p-name">Sports Shoes</h5>
+            <h5 class="p-name">Milk Tea</h5>
             <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
@@ -150,7 +150,7 @@ if (isset($_GET['product_id'])) {
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
             </div>
-            <h5 class="p-name">Sports Shoes</h5>
+            <h5 class="p-name">Milk Coffee</h5>
             <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
         </div>

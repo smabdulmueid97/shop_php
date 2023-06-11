@@ -91,42 +91,6 @@
   </div>
 </section>
 
-<!-- Banner -->
-<section id="banner" class="my-5 py-5">
-  <div class="container">
-    <h4>MID SEASON'S SALE</h4>
-    <h1>Autumn Collection<br />UP to 30% OFF</h1>
-    <button class="text-upercase">Shop now</button>
-  </div>
-</section>
-
-<!-- Items -->
-<section id="shoes" class="my-5">
-  <div class="container text-center mt-5 py-5">
-    <h3>Items</h3>
-    <hr class="mx-auto" />
-    <p>Foods for you</p>
-  </div>
-  <div class="row mx-auto container-fluid">
-
-    <?php include 'server/get_shoes.php';?>
-    <?php while ($row = $shoes->fetch_assoc()) {?>
-      <div class="Product text-center col-lg-3 col-md-4 col-sm-12">
-        <img class="img-fluid mb-3" src="assets/imgs/<?php echo $row['product_image']; ?>" />
-        <div class="star">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </div>
-        <h5 class="p-name"><?php echo $row['product_name']; ?></h5>
-        <h4 class="p-price">RM <?php echo $row['product_price']; ?></h4>
-        <a href="<?php echo "single_product.php? product_id=" . $row['product_id']; ?>">
-          <button class="buy-btn">Buy Now</button>
-        </a>
-      </div>
-    <?php }?>
 
 
   </div>
