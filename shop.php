@@ -78,7 +78,7 @@ if (isset($_POST['search'])) {
 <!-- Shop -->
 <section id="shop" class="my-5 py-5">
     <div class="container mt-5 py-5">
-        <h3>Get products</h3>
+        <h3>Purchase Product</h3>
         <hr>
         <p></p>
     </div>
