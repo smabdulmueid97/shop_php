@@ -21,7 +21,7 @@ if (isset($_POST['order_pay_btn'])) {
         <?php if (isset($_POST['order_status']) && $_POST['order_status'] == "not paid") {?>
             <?php $amount = strval($_POST['order_total_price']);?>
             <?php $order_id = $_POST['order_id'];?>
-            <p>Total payment: $<?php echo $_POST['order_total_price']; ?></p>
+            <p>Total payment: RM <?php echo $_POST['order_total_price']; ?></p>
             <!-- <input class="btn btn-primary" type="submit" value="Pay Now"> -->
             <!-- Set up a container element for the button -->
             <div id="paypal-button-container"></div>
@@ -29,7 +29,7 @@ if (isset($_POST['order_pay_btn'])) {
 
         <?php } else if (isset($_SESSION['total']) && $_SESSION['total'] != 0) {?>
             <?php $amount = strval($_SESSION['total']);?>
-            <p>Total Payment: $<?php echo $_SESSION['total']; ?> </p>
+            <p>Total Payment: RM <?php echo $_SESSION['total']; ?> </p>
             <?php $order_id = $_SESSION['order_id'];?>
             <!-- <input class="btn btn-primary" type="submit" value="Pay Now"> -->
             <!-- Set up a container element for the button -->

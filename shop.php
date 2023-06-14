@@ -1,5 +1,5 @@
-<?php include 'layouts/header.php';?>
-
+<?php include 'layouts/header.php';
+?>
 <?php
 include 'server/connection.php';
 
@@ -78,9 +78,9 @@ if (isset($_POST['search'])) {
 <!-- Shop -->
 <section id="shop" class="my-5 py-5">
     <div class="container mt-5 py-5">
-        <h3>Our Products</h3>
+        <h3>Get products</h3>
         <hr>
-        <p>Here you can check our products</p>
+        <p></p>
     </div>
     <div class="row mx-auto container">
 

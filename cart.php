@@ -1,4 +1,6 @@
-<?php include 'layouts/header.php';?>
+<?php include 'layouts/header.php';
+
+?>
 
 <?php
 
@@ -84,7 +86,7 @@ if (isset($_POST['add_to_cart'])) {
     // calculate total
     calculateTotalCart();
 } else {
-    // header('location:index.php');
+    // header('location:shop.php');
 }
 
 function calculateTotalCart()
@@ -137,7 +139,7 @@ function calculateTotalCart()
                         <img src="assets/imgs/<?php echo $value['product_image']; ?>" />
                         <div>
                             <p><?php echo $value['product_name']; ?></p>
-                            <small><span>$</span><?php echo $value['product_price']; ?></small>
+                            <small><span>RM </span><?php echo $value['product_price']; ?></small>
                             <br>
 
                             <form method="POST" action="cart.php">
@@ -157,7 +159,7 @@ function calculateTotalCart()
                     </form>
                 </td>
                 <td>
-                    <span>$</span>
+                    <span>RM </span>
                     <span class="product-price"><?php echo $value['product_quantity'] * $value['product_price']; ?></php></span>
                 </td>
             </tr>
@@ -173,7 +175,7 @@ function calculateTotalCart()
                 <td>Total</td>
                         <?php if (isset($_SESSION['cart'])) {?>
 
-                <td>$<?php echo $_SESSION['total']; ?></td>
+                <td>RM <?php echo $_SESSION['total']; ?></td>
                         <?php }?>
 
             </tr>

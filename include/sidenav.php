@@ -25,11 +25,11 @@
 
             </a>
             <ul class="nav-links">
-                <li><a href="../admins/admins_read.php">
+                <li><a href="../shop.php">
                         <span class="material-symbols-outlined">
                             home
                         </span>
-                        <p>Admins</p>
+                        <p>Sales</p>
                     </a></li>
                 <li><a href="../orders/orders_read.php">
                         <span class="material-symbols-outlined">

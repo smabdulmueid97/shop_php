@@ -17,7 +17,7 @@ if (isset($_GET['product_id'])) {
 
     // no product id was given
 } else {
-    header('location: index.php');
+    header('location: shop.php');
 }
 ?>
 
@@ -60,7 +60,7 @@ if (isset($_GET['product_id'])) {
             <div class="col-lg-6 col-md-12 col-12">
                 <h6>Men/Items</h6>
                 <h3 class="py-4"><?php echo $row['product_name']; ?></h3>
-                <h2>$<?php echo $row['product_price']; ?></h2>
+                <h2>RM <?php echo $row['product_price']; ?></h2>
 
                 <form method="POST" action="cart.php">
 
