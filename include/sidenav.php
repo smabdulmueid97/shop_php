@@ -31,37 +31,47 @@
                         </span>
                         <p>Back to Sales</p>
                     </a></li>
-                <li><a href="../orders/orders_read.php">
+
+
+                <!-- <li><a href="../orders/orders_read.php">
                         <span class="material-symbols-outlined">
                             local_shipping
                         </span>
-                        <!-- <p>Orders</p>
-                    </a></li>
-                <li><a href="../order_items/order_items_read.php">
+                        <p>Orders</p>
+                    </a></li> -->
+
+                <li><a href="../Sales_Record/orders_read.php">
                         <span class="material-symbols-outlined">
                             package
-                        </span> -->
+                        </span>
                         <p>Sales Record</p>
                     </a></li>
-                <li><a href="../payments/payments_read.php">
+
+
+                <!-- <li><a href="../payments/payments_read.php">
                         <span class="material-symbols-outlined">
                             credit_card
                         </span>
-                        <!-- <p>Payments</p>
-                    </a></li>
-                <li><a href="../products/products_read.php">
+                        <p>Payments</p>
+                    </a></li> -->
+
+
+                <li><a href="../Import/products_read.php">
                         <span class="material-symbols-outlined">
                             view_list
-                        </span> -->
+                        </span>
                         <p>Import</p>
                     </a></li>
-                <li><a href="../users/users_read.php">
+
+
+                <li><a href="../Employee/users_read.php">
                         <span class="material-symbols-outlined">
                             group
                         </span>
                         <p>Employee</p>
                     </a>
                 </li>
+
                 <div class="active">
                 </div>
             </ul>
