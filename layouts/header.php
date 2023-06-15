@@ -1,7 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "shop_php")
-    or die("Couldn't connect to database");
-
+include 'server/connection.php';
 
 session_start();
 ?>
