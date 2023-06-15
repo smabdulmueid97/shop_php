@@ -8,7 +8,7 @@
 .side-nav {
   width: 250px;
   height: 100%;
-  background: #003901;
+  background: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
@@ -29,7 +29,7 @@
   padding: 10px 0;
 }
 .nav-links li a {
-  color: #fff;
+  color: #007e13;
   text-decoration: none;
   padding: 10px 10px;
   display: flex;
@@ -52,7 +52,7 @@
   box-shadow: 0 5px 10px rgba(57, 57, 57, 0.4);
   display: none;
 }
-.nav-links li:hover a {
+/* .nav-links li:hover a {
   color: #000000;
   transition: 0.3s;
 }
@@ -76,7 +76,7 @@
 }
 .nav-links li:nth-child(6):hover ~ .active {
   top: 85.6%;
-}
+} */
 .logo-icon {
   display: none;
   width: 45px;

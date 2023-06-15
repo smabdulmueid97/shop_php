@@ -29,37 +29,37 @@
                         <span class="material-symbols-outlined">
                             home
                         </span>
-                        <p>Sales</p>
+                        <p>Back to Sales</p>
                     </a></li>
                 <li><a href="../orders/orders_read.php">
                         <span class="material-symbols-outlined">
                             local_shipping
                         </span>
-                        <p>Orders</p>
+                        <!-- <p>Orders</p>
                     </a></li>
                 <li><a href="../order_items/order_items_read.php">
                         <span class="material-symbols-outlined">
                             package
-                        </span>
-                        <p>Order Items</p>
+                        </span> -->
+                        <p>Sales Record</p>
                     </a></li>
                 <li><a href="../payments/payments_read.php">
                         <span class="material-symbols-outlined">
                             credit_card
                         </span>
-                        <p>Payments</p>
+                        <!-- <p>Payments</p>
                     </a></li>
                 <li><a href="../products/products_read.php">
                         <span class="material-symbols-outlined">
                             view_list
-                        </span>
-                        <p>Products</p>
+                        </span> -->
+                        <p>Import</p>
                     </a></li>
                 <li><a href="../users/users_read.php">
                         <span class="material-symbols-outlined">
                             group
                         </span>
-                        <p>Users</p>
+                        <p>Employee</p>
                     </a>
                 </li>
                 <div class="active">
