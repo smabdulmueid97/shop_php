@@ -6,7 +6,7 @@
 //     exit;
 // }
 
-session_start();
+// session_start();
 
 if (isset($_POST['login_btn'])) {
     $email = $_POST['email'];
@@ -55,8 +55,8 @@ include 'layouts/header.php'
     <div class="mx-auto container">
         <form id="login-form" method="POST" action="login.php">
             <p style="color: red" class="text-center"><?php if (isset($_GET['error'])) {
-    echo $_GET['error'];
-}?></p>
+                                                            echo $_GET['error'];
+                                                        } ?></p>
             <div class="form-group">
                 <label>Email</label>
                 <input type="text" class="form-control" id="login-email" name="email" placeholder="Email" required />
