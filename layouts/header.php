@@ -35,24 +35,20 @@ session_start();
             <div class="collapse navbar-collapse nav-buttons" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="shop.php">Sales</a>
+                        <a class="nav-link" href="shop.php">Product</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="./order_items/order_items_read.php">Product</a>
+                        <a class="nav-link" href="/Import/products_read.php">Import</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./order_items/order_items_read.php">Import</a>
-                    </li>
 
-              
 
                     <li class="nav-item">
                         <a href="cart.php"><i class="fa fa-solid fa-heart">
-                                <?php if (isset($_SESSION['quantity']) && $_SESSION['quantity'] != 0) {?>
+                                <?php if (isset($_SESSION['quantity']) && $_SESSION['quantity'] != 0) { ?>
                                     <span class="cart-quantity"><?php echo $_SESSION['quantity']; ?></span>
-                                <?php }?>
+                                <?php } ?>
                             </i>
                         </a>
                         <a href="account.php"><i class="fa fa-solid fa-user"></i></a>
