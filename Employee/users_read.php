@@ -1,4 +1,3 @@
-
 <?php
 include '../include/dbconnection.php';
 
@@ -50,7 +49,7 @@ include '../include/sidenav.php';
         <div class="col-md-12">
             <?php
             if ($totalRows != 0) {
-                ?>
+            ?>
                 <table class="table table-bordered table-striped table-hover table-borderless">
                     <thead>
                         <tr>
@@ -82,26 +81,26 @@ include '../include/sidenav.php';
                                       <td>" . $data["job_id"] . "</td>
                                       <td>" . $data["address_id"] . "</td>
                                       <td>" . $data["employee_first_name"] . "</td>
-<td>" . $data["employee_last_name"] . "</td>
-<td>" . $data["employee_phone_number"] . "</td>
-<td>" . $data["employee_email"] . "</td>
-<td>" . $data["employee_birthdate"] . "</td>
-<td>" . $data["employee_gender"] . "</td>
-<td>" . $data["employee_hiredate"] . "</td>
-<td>" . $data["employee_login_password"] . "</td>
-<td><a href='users_update.php?employee_id=$data[employee_id]' class='btn btn-info'>Edit</a></td>
-</tr>";
-}
-?>
-</tbody>
-</table>
-<?php
-         } else {
-             echo "No Rows Found";
-         }
-         ?>
-</div>
-</div>
+                                    <td>" . $data["employee_last_name"] . "</td>
+                                    <td>" . $data["employee_phone_number"] . "</td>
+                                    <td>" . $data["employee_email"] . "</td>
+                                    <td>" . $data["employee_birthdate"] . "</td>
+                                    <td>" . $data["employee_gender"] . "</td>
+                                    <td>" . $data["employee_hiredate"] . "</td>
+                                    <td>" . $data["employee_login_password"] . "</td>
+                                    <td><a href='users_update.php?employee_id=$data[employee_id]' class='btn btn-info'>Edit</a></td>
+                                    </tr>";
+                        }
+                        ?>
+                    </tbody>
+                </table>
+            <?php
+            } else {
+                echo "No Rows Found";
+            }
+            ?>
+        </div>
+    </div>
 
 </div>
 <script>
@@ -112,4 +111,5 @@ include '../include/sidenav.php';
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

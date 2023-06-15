@@ -1,4 +1,4 @@
-<?php include 'layouts/header.php';?>
+<?php include 'layouts/header.php'; ?>
 
 
 <!-- home -->
@@ -64,19 +64,13 @@
   </div>
   <div class="row mx-auto container-fluid">
 
-    <?php include 'server/get_featured_products.php';?>
-    <?php while ($row = $featured_products->fetch_assoc()) {?>
+    <?php include 'server/get_featured_products.php'; ?>
+    <?php while ($row = $featured_products->fetch_assoc()) { ?>
 
       <div class="Product text-center col-lg-3 col-md-4 col-sm-12">
         <img class="img-fluid mb-3" src="assets/imgs/<?php echo $row['product_image']; ?>" />
 
-        <div class="star">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-        </div>
+
         <h5 class="p-name"><?php echo $row['product_name'] ?></h5>
         <h4 class="p-price">RM <?php echo $row['product_price'] ?></h4>
 
@@ -86,14 +80,14 @@
 
       </div>
 
-    <?php }?>
+    <?php } ?>
 
   </div>
 </section>
 
 
 
-  </div>
+</div>
 </section>
 
 

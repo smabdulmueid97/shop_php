@@ -1,4 +1,4 @@
-<?php include 'layouts/header.php';?>
+<?php include 'layouts/header.php'; ?>
 
 <?php
 
@@ -29,7 +29,7 @@ if (isset($_GET['product_id'])) {
 <section class="container single-product my-5 pt-5">
     <div class="row mt-5 ">
 
-        <?php while ($row = $product->fetch_assoc()) {?>
+        <?php while ($row = $product->fetch_assoc()) { ?>
 
 
 
@@ -87,7 +87,7 @@ if (isset($_GET['product_id'])) {
                 </span>
 
             </div>
-        <?php }?>
+        <?php } ?>
 
     </div>
 </section>
@@ -101,13 +101,7 @@ if (isset($_GET['product_id'])) {
     <div class="row mx-auto container-fluid">
         <div class="Product text-center col-lg-3 col-md-4 col-sm-12">
             <img class="img-fluid mb-3" src="assets/imgs/featured1.jpg" />
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+
             <h5 class="p-name">Tea</h5>
             <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
@@ -115,13 +109,7 @@ if (isset($_GET['product_id'])) {
 
         <div class="Product text-center col-lg-3 col-md-4 col-sm-12">
             <img class="img-fluid mb-3" src="assets/imgs/featured2.jpg" />
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+
             <h5 class="p-name">Black Tea</h5>
             <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
@@ -129,13 +117,7 @@ if (isset($_GET['product_id'])) {
 
         <div class="Product text-center col-lg-3 col-md-4 col-sm-12">
             <img class="img-fluid mb-3" src="assets/imgs/featured3.jpg" />
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+
             <h5 class="p-name">Milk Tea</h5>
             <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
@@ -143,13 +125,7 @@ if (isset($_GET['product_id'])) {
 
         <div class="Product text-center col-lg-3 col-md-4 col-sm-12">
             <img class="img-fluid mb-3" src="assets/imgs/featured4.jpg" />
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
+
             <h5 class="p-name">Milk Coffee</h5>
             <h4 class="p-price">RM 199.8</h4>
             <button class="buy-btn">Buy Now</button>
