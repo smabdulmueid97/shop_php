@@ -81,7 +81,7 @@ include '../include/sidenav.php';
 if ($Total_Rows != 0) {
     ?>
 
-    <table class="table table-bordered table-striped table-hover table-dark">
+    <table class="table table-bordered table-striped table-hover table-borderless">
         <thead>
         <tr>
             <th colspan="8" class="text-center">Products</th>
@@ -92,9 +92,6 @@ if ($Total_Rows != 0) {
             <th>Product Category</th>
             <th>Product Description</th>
             <th>Product Image 1</th>
-            <th>Product Image 2</th>
-            <th>Product Image 3</th>
-            <th>Product Image 4</th>
             <th>Product Price</th>
             <th>Product Special Offer</th>
             <th>Product Color</th>
@@ -110,9 +107,6 @@ echo "<tbody>";
             <td>" . $data["product_category"] . "</td>
             <td>" . $data["product_description"] . "</td>
             <td>" . $data["product_image"] . "</td>
-            <td>" . $data["product_image2"] . "</td>
-            <td>" . $data["product_image3"] . "</td>
-            <td>" . $data["product_image4"] . "</td>
             <td>" . $data["product_price"] . "</td>
             <td>" . $data["product_special_offer"] . "</td>
             <td>" . $data["product_color"] . "</td>

@@ -85,7 +85,7 @@ include '../include/sidenav.php';
 if ($Total_Rows != 0) {
     ?>
 
-    <table class="table table-bordered table-striped table-hover table-dark">
+    <table class="table table-bordered table-striped table-hover table-borderless">
         <thead>
         <tr>
             <th colspan="8" class="text-center">Orders</th>

@@ -41,7 +41,7 @@ include '../include/dbconnection.php';
                     <br>
         <input type="decimal(6,2)" class="form-control" name="eproduct_price" id="" placeholder="Enter Product Price">
                     <br>
-        <input type="decimal(6,2)" class="form-control" name="eproduct_special_offer" id="" placeholder="Enter Product Special Offer">
+        <input type="decimal(6,2)" class="form-control" name="eproduct_special_offer" id="" placeholder="Enter Product Quantity">
                     <br>
         <input type="text" class="form-control" name="eproduct_color" id="" placeholder="Enter Product Color">
                     <br>
