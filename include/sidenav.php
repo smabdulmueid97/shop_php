@@ -9,17 +9,16 @@
 
     <link rel="stylesheet" href="../css/admin.css">
 
-       <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
 
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
 
     <div class="container">
         <div class="side-nav">
-            <a href="#" class="logo">
+            <a href="../shop.php" class="logo">
                 <img src="../include/logo.jpg" class="logo-img">
                 <img src="../include/logo.jpg" class="logo-icon">
 
@@ -78,6 +77,6 @@
         </div>
     </div>
 
-<!-- </body>
+    <!-- </body>
 
 </html> -->

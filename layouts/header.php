@@ -1,6 +1,6 @@
 <?php
 include 'server/connection.php';
-
+include './include/dbconnection.php';
 session_start();
 ?>
 
@@ -37,7 +37,7 @@ session_start();
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/Import/products_read.php">Import</a>
+                        <a class="nav-link" href="Import\products_read.php">Import</a>
                     </li>
 
 

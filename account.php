@@ -2,9 +2,7 @@
 
 <?php
 
-session_start();
-
-include 'server/connection.php';
+// include 'server/connection.php';
 
 if (!isset($_SESSION['logged_in'])) {
     header('location: login.php');
@@ -69,9 +67,10 @@ if (isset($_POST['change_password'])) {
             <h3 class="font-weight-bold">Account info</h3>
             <hr class="mx-auto">
             <div class="account-info">
-                <p>Name <span><?php if (isset($_SESSION['emloyeee_first_name'])) {
-    echo $_SESSION['emloyeee_first_name'];
-}?></span></p>
+            <p>Name: <span><?php 
+                if (isset($_SESSION['emloyeee_first_name']) && isset($_SESSION['emloyeee_last_name'])) {
+                    echo $_SESSION['emloyeee_first_name'] . " " . $_SESSION['emloyeee_last_name'];
+                }?></span></p>
                 <p>Email: <span><?php if (isset($_SESSION['employee_email'])) {
     echo $_SESSION['employee_email'];
 }?></span></p>

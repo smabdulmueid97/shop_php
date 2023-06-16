@@ -71,9 +71,7 @@ include 'layouts/header.php'
                 <input type="submit" class="btn" id="login-btn" name="login_btn" value="Login" />
             </div>
 
-            <div class="form-group">
-                <a id="register-url" href="register.php" class="btn">Dont have account? Register</a>
-            </div>
+
 
         </form>
     </div>
