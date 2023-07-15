@@ -11,12 +11,12 @@
          <div class="footer-one col-lg-3 col-md-6 col-sm-12">
              <h5 class="pb-2">Featured</h5>
              <ul class="text-uppercase">
-                 <li><a href="#">Tea</a></li>
-                 <li><a href="#">Coffee</a></li>
-                 <li><a href="#">Tea Powder</a></li>
-                 <li><a href="#">Cake</a></li>
-                 <li><a href="#">Green Tea</a></li>
-                 <li><a href="#">Milk Tea</a></li>
+                 <li><a href="#">men</a></li>
+                 <li><a href="#">women</a></li>
+                 <li><a href="#">boys</a></li>
+                 <li><a href="#">girls</a></li>
+                 <li><a href="#">new arrivels</a></li>
+                 <li><a href="#">clothes</a></li>
              </ul>
          </div>
          <div class="footer-one col-lg-3 col-md-6 col-sm-12">
@@ -43,11 +43,11 @@
          <div class="footer-one col-lg-3 col-md-6 col-sm-12">
              <h5 class="pb-2">Instagram</h5>
              <div class="row">
-                 <img src="assets/imgs/featured1.jpg" class="img-fluid w-25 h-100  m-2">
+                 <img src="assets/imgs/clothes2.jpg" class="img-fluid w-25 h-100  m-2">
                  <img src="assets/imgs/featured2.jpg" class="img-fluid w-25 h-100  m-2">
                  <img src="assets/imgs/featured3.jpg" class="img-fluid w-25 h-100  m-2">
                  <img src="assets/imgs/featured4.jpg" class="img-fluid w-25 h-100  m-2">
-                 <img src="assets/imgs/featured5.jpg" class="img-fluid w-25 h-100  m-2">
+                 <img src="assets/imgs/clothes1.jpg" class="img-fluid w-25 h-100  m-2">
 
              </div>
          </div>

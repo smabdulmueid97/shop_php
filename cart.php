@@ -1,28 +1,26 @@
-<?php include 'layouts/header.php';
-
-?>
+<?php include 'layouts/header.php';?>
 
 <?php
 
-// include 'server/connection.php';
+include 'server/connection.php';
 
 if (isset($_POST['add_to_cart'])) {
 
     // if user already added a product to cart
     if (isset($_SESSION['cart'])) {
 
-        $product_array_ids = array_column($_SESSION['cart'], "product_tea_powder_id"); // [2,3,4,10,15]
+        $product_array_ids = array_column($_SESSION['cart'], "product_id"); // [2,3,4,10,15]
         // if product had already been added to cart or not
-        if (!in_array($_POST['product_tea_powder_id'], $product_array_ids)) {
+        if (!in_array($_POST['product_id'], $product_array_ids)) {
 
-            $product_id = $_POST['product_tea_powder_id'];
+            $product_id = $_POST['product_id'];
 
             $product_array = array(
-                'product_id' => $_POST['product_tea_powder_id'],
-                'product_name' => $_POST['tea_powder_name'],
-                'product_price' => $_POST['tea_powder_price'],
-                'product_image' => $_POST['tea_powder_image'],
-                'product_quantity' => $_POST['tea_powder_quantity'],
+                'product_id' => $_POST['product_id'],
+                'product_name' => $_POST['product_name'],
+                'product_price' => $_POST['product_price'],
+                'product_image' => $_POST['product_image'],
+                'product_quantity' => $_POST['product_quantity'],
             );
             $_SESSION['cart'][$product_id] = $product_array;
 
@@ -35,11 +33,11 @@ if (isset($_POST['add_to_cart'])) {
         // if this is the first product
     } else {
 
-        $product_id = $_POST['product_tea_powder_id'];
-        $product_name = $_POST['tea_powder_name'];
-        $product_price = $_POST['tea_powder_price'];
-        $product_image = $_POST['tea_powder_image'];
-        $product_quantity = $_POST['tea_powder_quantity'];
+        $product_id = $_POST['product_id'];
+        $product_name = $_POST['product_name'];
+        $product_price = $_POST['product_price'];
+        $product_image = $_POST['product_image'];
+        $product_quantity = $_POST['product_quantity'];
 
         $product_array = array(
             'product_id' => $product_id,
@@ -86,7 +84,7 @@ if (isset($_POST['add_to_cart'])) {
     // calculate total
     calculateTotalCart();
 } else {
-    // header('location:shop.php');
+    // header('location:index.php');
 }
 
 function calculateTotalCart()
@@ -139,7 +137,7 @@ function calculateTotalCart()
                         <img src="assets/imgs/<?php echo $value['product_image']; ?>" />
                         <div>
                             <p><?php echo $value['product_name']; ?></p>
-                            <small><span>RM </span><?php echo $value['product_price']; ?></small>
+                            <small><span>$</span><?php echo $value['product_price']; ?></small>
                             <br>
 
                             <form method="POST" action="cart.php">
@@ -159,7 +157,7 @@ function calculateTotalCart()
                     </form>
                 </td>
                 <td>
-                    <span>RM </span>
+                    <span>$</span>
                     <span class="product-price"><?php echo $value['product_quantity'] * $value['product_price']; ?></php></span>
                 </td>
             </tr>
@@ -175,7 +173,7 @@ function calculateTotalCart()
                 <td>Total</td>
                         <?php if (isset($_SESSION['cart'])) {?>
 
-                <td>RM <?php echo $_SESSION['total']; ?></td>
+                <td>$<?php echo $_SESSION['total']; ?></td>
                         <?php }?>
 
             </tr>

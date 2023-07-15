@@ -32,7 +32,7 @@ if (!isset($_SESSION['logged_in'])) {
         $stmt_status = $stmt->execute();
 
         if (!$stmt_status) {
-            header('location: shop.php');
+            header('location: index.php');
             exit;
         }
 

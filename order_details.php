@@ -66,7 +66,7 @@ function calculateTotalOrderPrice($order_details)
 
                 </td>
                 <td>
-                    <span>RM <?php echo $row['product_price']; ?></span>
+                    <span>$<?php echo $row['product_price']; ?></span>
                 </td>
 
                 <td>

@@ -28,6 +28,6 @@ if (isset($_GET['transaction_id']) && isset($_GET['order_id'])) {
     // go to user account
     header("location: ../account.php?payment_message=paid successfully, thanks for your shopping with us");
 } else {
-    header("location: shop.php");
+    header("location: index.php");
     exit;
 }
